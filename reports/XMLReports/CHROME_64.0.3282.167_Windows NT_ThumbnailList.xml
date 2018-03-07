@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="ThumbnailList"
+    errors="1" failures="1" hostname="" id="" package="ThumbnailList" skipped="0"
+    tests="1" time="9.510" timestamp="Thu, 22 Feb 2018 02:25:39 GMT">
+  
+    <testcase name="Thumbnail List block should display appropriately" classname="ThumbnailList" time="9.510" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#ss-ThumbnailListBlock-418 &gt; div &gt; div:nth-child(3) &gt; div &gt; div &gt; h3&gt; is visible. Element could not be located.">    at Object.Thumbnail List block should display appropriately (C:\MyJavaScript\tests\ThumbnailList.js:21:17)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#ss-ThumbnailListBlock-418 &gt; div &gt; div:nth-child(3) &gt; div &gt; div &gt; h3&#34; using: css selector
+    at F.command (C:\MyJavaScript\node_modules\nightwatch\lib\api\assertions\visible.js:42:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (C:\MyJavaScript\node_modules\nightwatch\lib\core\assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (C:\MyJavaScript\node_modules\nightwatch\lib\core\assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (C:\MyJavaScript\node_modules\nightwatch\lib\core\assertion.js:180:21)
+    at AsyncTree.runCommand (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.walkUp (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:97:8)
+    at AsyncTree.walkDown (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:90:12)
+    at AsyncTree.walkUp (C:\MyJavaScript\node_modules\nightwatch\lib\core\queue.js:97:8)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

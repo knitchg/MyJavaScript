@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ThumbnailListIcon"
+    errors="1" failures="0" hostname="" id="" package="ThumbnailListIcon" skipped="0"
+    tests="1" time="0.000" timestamp="Sun, 18 Feb 2018 23:25:45 GMT">
+  
+    <testcase name="Thumbnail List Icon" classname="ThumbnailListIcon" time="0.000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Thumbnail List Icon / Thumbnail List Icon]:
+
+  ReferenceError: browser is not defined
+    at Object.Thumbnail List Icon (C:\MyJavaScript\tests\ThumbnailListIcon.js:13:9)
+    at Module.call (C:\MyJavaScript\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\MyJavaScript\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\MyJavaScript\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\MyJavaScript\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\MyJavaScript\node_modules\q\q.js:796:13)
+    at C:\MyJavaScript\node_modules\q\q.js:556:49
+    at runSingle (C:\MyJavaScript\node_modules\q\q.js:137:13)
+    at flush (C:\MyJavaScript\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

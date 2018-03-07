@@ -1,0 +1,17 @@
+{
+  "name": "myjavascript",
+  "version": "1.0.0",
+  "description": "To learn automation testing.",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Knitchel",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.35.0",
+    "jshint": "^2.9.5",
+    "nightwatch": "^0.9.19",
+    "printf": "^0.2.5"
+  }
+}
